@@ -8,11 +8,12 @@ namespace Secao08_Intefaces.Service
         public double PricePerHour { get; private set; }
         public double PricePerDay { get; private set; }
 
-        private BrazilTaxService _brazilTaxService = new BrazilTaxService();
-        public RentalService(double pricePerHour, double pricePerDay)
+        private ITaxService _taxService = null;
+        public RentalService(double pricePerHour, double pricePerDay, ITaxService taxService)
         {
             PricePerHour = pricePerHour;
             PricePerDay = pricePerDay;
+            _taxService = taxService;
         }
 
         public void ProcessInvoice(CarRental carRental)
@@ -30,9 +31,11 @@ namespace Secao08_Intefaces.Service
                 basicPagamenty = PricePerDay * Math.Ceiling(duration.TotalDays);
             }
 
-            double tax = _brazilTaxService.Tax(basicPagamenty);
+            double tax = _taxService.Tax(basicPagamenty);
 
             carRental.Invoice = new Invoice(basicPagamenty, tax);
         }
+
+       
     }
 }

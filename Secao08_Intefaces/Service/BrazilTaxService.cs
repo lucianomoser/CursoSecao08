@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Secao08_Intefaces.Service
 {
-    class BrazilTaxService
+    public class BrazilTaxService:ITaxService
     {
         public double Tax(double amount)
         {

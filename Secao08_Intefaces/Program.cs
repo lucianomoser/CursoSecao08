@@ -32,7 +32,7 @@ namespace Secao08_Intefaces
                 CarRental carRental = new CarRental(pichkup, Return, new Vehicle(model));
 
 
-                RentalService rentalService = new RentalService(PerHora, PerDay);
+                RentalService rentalService = new RentalService(PerHora, PerDay, new BrazilTaxService());
 
                 rentalService.ProcessInvoice(carRental);
 
