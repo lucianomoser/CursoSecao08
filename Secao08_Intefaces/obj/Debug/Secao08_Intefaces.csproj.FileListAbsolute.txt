@@ -1,0 +1,7 @@
+C:\Luciano\Projetos\Udemy\Secao 08\Secao08_Intefaces\Secao08_Intefaces\bin\Debug\Secao08_Intefaces.exe.config
+C:\Luciano\Projetos\Udemy\Secao 08\Secao08_Intefaces\Secao08_Intefaces\bin\Debug\Secao08_Intefaces.exe
+C:\Luciano\Projetos\Udemy\Secao 08\Secao08_Intefaces\Secao08_Intefaces\bin\Debug\Secao08_Intefaces.pdb
+C:\Luciano\Projetos\Udemy\Secao 08\Secao08_Intefaces\Secao08_Intefaces\obj\Debug\Secao08_Intefaces.csprojAssemblyReference.cache
+C:\Luciano\Projetos\Udemy\Secao 08\Secao08_Intefaces\Secao08_Intefaces\obj\Debug\Secao08_Intefaces.csproj.CoreCompileInputs.cache
+C:\Luciano\Projetos\Udemy\Secao 08\Secao08_Intefaces\Secao08_Intefaces\obj\Debug\Secao08_Intefaces.exe
+C:\Luciano\Projetos\Udemy\Secao 08\Secao08_Intefaces\Secao08_Intefaces\obj\Debug\Secao08_Intefaces.pdb
